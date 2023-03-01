@@ -23,6 +23,7 @@ Before downloading the CSV files, I pre-filtered the data to remove extraneous c
   - CSV data is used to populate internal data structures--an array of school IDs, a dictionary mapping school IDs to school information
   - Upon transitioning to the detailed information view, it will send the selected school's data to SchoolInformationViewController
 - [SchoolInformationViewController](/20230227-BH-NYCSchools/SchoolInformationViewController.swift): displays school information that it receives from SchoolsListViewController
+  - Handles school name, address, website, overview, and SAT scores
 
 ### Dependencies
 I used [SwiftCSV](https://swiftpackageindex.com/swiftcsv/SwiftCSV) to load/parse CSV files.
