@@ -9,21 +9,28 @@
 /* Begin PBXBuildFile section */
 		E60EDFB529ADCD1A0042CB98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60EDFB429ADCD1A0042CB98 /* AppDelegate.swift */; };
 		E60EDFB729ADCD1A0042CB98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60EDFB629ADCD1A0042CB98 /* SceneDelegate.swift */; };
-		E60EDFB929ADCD1A0042CB98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60EDFB829ADCD1A0042CB98 /* ViewController.swift */; };
+		E60EDFB929ADCD1A0042CB98 /* SchoolsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60EDFB829ADCD1A0042CB98 /* SchoolsListViewController.swift */; };
 		E60EDFBC29ADCD1A0042CB98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60EDFBA29ADCD1A0042CB98 /* Main.storyboard */; };
 		E60EDFBE29ADCD1C0042CB98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60EDFBD29ADCD1C0042CB98 /* Assets.xcassets */; };
 		E60EDFC129ADCD1C0042CB98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60EDFBF29ADCD1C0042CB98 /* LaunchScreen.storyboard */; };
+		E60EDFCA29ADCE530042CB98 /* 2017_DOE_High_School_Directory.csv in Resources */ = {isa = PBXBuildFile; fileRef = E60EDFC829ADCE530042CB98 /* 2017_DOE_High_School_Directory.csv */; };
+		E60EDFCB29ADCE530042CB98 /* 2012_SAT_Results.csv in Resources */ = {isa = PBXBuildFile; fileRef = E60EDFC929ADCE530042CB98 /* 2012_SAT_Results.csv */; };
+		E60EDFCE29ADCE960042CB98 /* SwiftCSV in Frameworks */ = {isa = PBXBuildFile; productRef = E60EDFCD29ADCE960042CB98 /* SwiftCSV */; };
+		E60EDFD029ADE8B70042CB98 /* SchoolInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60EDFCF29ADE8B70042CB98 /* SchoolInformationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E60EDFB129ADCD1A0042CB98 /* 20230227-BH-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20230227-BH-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60EDFB429ADCD1A0042CB98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E60EDFB629ADCD1A0042CB98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E60EDFB829ADCD1A0042CB98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E60EDFB829ADCD1A0042CB98 /* SchoolsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsListViewController.swift; sourceTree = "<group>"; };
 		E60EDFBB29ADCD1A0042CB98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E60EDFBD29ADCD1C0042CB98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E60EDFC029ADCD1C0042CB98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E60EDFC229ADCD1C0042CB98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E60EDFC829ADCE530042CB98 /* 2017_DOE_High_School_Directory.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2017_DOE_High_School_Directory.csv; sourceTree = "<group>"; };
+		E60EDFC929ADCE530042CB98 /* 2012_SAT_Results.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 2012_SAT_Results.csv; sourceTree = "<group>"; };
+		E60EDFCF29ADE8B70042CB98 /* SchoolInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolInformationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E60EDFCE29ADCE960042CB98 /* SwiftCSV in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,9 +64,12 @@
 		E60EDFB329ADCD1A0042CB98 /* 20230227-BH-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
+				E60EDFC929ADCE530042CB98 /* 2012_SAT_Results.csv */,
+				E60EDFC829ADCE530042CB98 /* 2017_DOE_High_School_Directory.csv */,
 				E60EDFB429ADCD1A0042CB98 /* AppDelegate.swift */,
 				E60EDFB629ADCD1A0042CB98 /* SceneDelegate.swift */,
-				E60EDFB829ADCD1A0042CB98 /* ViewController.swift */,
+				E60EDFB829ADCD1A0042CB98 /* SchoolsListViewController.swift */,
+				E60EDFCF29ADE8B70042CB98 /* SchoolInformationViewController.swift */,
 				E60EDFBA29ADCD1A0042CB98 /* Main.storyboard */,
 				E60EDFBD29ADCD1C0042CB98 /* Assets.xcassets */,
 				E60EDFBF29ADCD1C0042CB98 /* LaunchScreen.storyboard */,
@@ -83,6 +94,9 @@
 			dependencies = (
 			);
 			name = "20230227-BH-NYCSchools";
+			packageProductDependencies = (
+				E60EDFCD29ADCE960042CB98 /* SwiftCSV */,
+			);
 			productName = "20230227-BH-NYCSchools";
 			productReference = E60EDFB129ADCD1A0042CB98 /* 20230227-BH-NYCSchools.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +125,9 @@
 				Base,
 			);
 			mainGroup = E60EDFA829ADCD1A0042CB98;
+			packageReferences = (
+				E60EDFCC29ADCE960042CB98 /* XCRemoteSwiftPackageReference "SwiftCSV" */,
+			);
 			productRefGroup = E60EDFB229ADCD1A0042CB98 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +142,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E60EDFCB29ADCE530042CB98 /* 2012_SAT_Results.csv in Resources */,
 				E60EDFC129ADCD1C0042CB98 /* LaunchScreen.storyboard in Resources */,
 				E60EDFBE29ADCD1C0042CB98 /* Assets.xcassets in Resources */,
 				E60EDFBC29ADCD1A0042CB98 /* Main.storyboard in Resources */,
+				E60EDFCA29ADCE530042CB98 /* 2017_DOE_High_School_Directory.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +157,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E60EDFB929ADCD1A0042CB98 /* ViewController.swift in Sources */,
+				E60EDFB929ADCD1A0042CB98 /* SchoolsListViewController.swift in Sources */,
+				E60EDFD029ADE8B70042CB98 /* SchoolInformationViewController.swift in Sources */,
 				E60EDFB529ADCD1A0042CB98 /* AppDelegate.swift in Sources */,
 				E60EDFB729ADCD1A0042CB98 /* SceneDelegate.swift in Sources */,
 			);
@@ -356,6 +376,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E60EDFCC29ADCE960042CB98 /* XCRemoteSwiftPackageReference "SwiftCSV" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftcsv/SwiftCSV.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.8.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E60EDFCD29ADCE960042CB98 /* SwiftCSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E60EDFCC29ADCE960042CB98 /* XCRemoteSwiftPackageReference "SwiftCSV" */;
+			productName = SwiftCSV;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E60EDFA929ADCD1A0042CB98 /* Project object */;
 }
